@@ -1,0 +1,5 @@
+node_modules
+vercel.json
+.env.local
+.next
+.vercel
