@@ -153,7 +153,7 @@ const Footer = () => {
         </div>
         <hr className=" w-[95%] mx-auto" />
         <p className=" text-center text-white">
-          &copy; 2024 developed by baby care All Right Reserved.
+          &copy; 2024 developed by deshi shop All Right Reserved.
         </p>
       </div>
     </Container>

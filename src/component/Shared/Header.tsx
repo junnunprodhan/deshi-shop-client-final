@@ -37,14 +37,8 @@ const Header = () => {
         <div className=" flex items-center">
           <Link href={"/"}>
             <p className=" flex items-center gap-1 text-[32px]">
-              {/* <p className=" text-xl flex items-center mb-3">Winter</p> */}
-              <Image
-                className=" flex items-center size-28"
-                src="https://askbootstrap.com/preview/eatsie/assets/img/logo.svg"
-                alt=""
-                width={40}
-                height={40}
-              />
+             Deshi<span className ="text-blue-400">Shop</span>
+             
             </p>
           </Link>
         </div>
