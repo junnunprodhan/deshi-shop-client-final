@@ -4,7 +4,7 @@ import BrandHeader from "@/component/BrandHeader";
 
 
 const FlashDetailsPage = async ({ params }: { params: any }) => {
-  const res = await fetch(`${process.env.BACKEND_URL}product/${params?.flashId}`);
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/product/${params?.flashId}`);
   const sale = await res.json();
   const product = sale as TProduct[];
   

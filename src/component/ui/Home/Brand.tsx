@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 
 const Brand = async ({}) => {
-  const res = await fetch(`${process.env.BACKEND_URL}products`);
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/products`);
   const products = await res.json();
 
   return (

@@ -3,7 +3,7 @@ import BrandHeader from "@/component/BrandHeader";
 import FlashCard from "@/component/FlashCard";
 
 const FlashSaleHome = async () => {
-  const res = await fetch(`${process.env.BACKEND_URL}flash-sale`, {
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/flash-sale`, {
     next: { revalidate: 30 },
   });
   const sales = await res.json();

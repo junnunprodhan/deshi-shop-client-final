@@ -9,7 +9,7 @@ import Container from "../Container/Container";
 const Footer = () => {
   return (
     <Container>
-      <div className="bg-black space-y-6 py-10">
+      <div className="bg-black space-y-6 py-10 mt-20">
         <div className=" grid grid-cols-1 md:grid-cols-5 px-7 space-y-10 md:justify-items-center text-white">
           <div>
             <p className=" text-xl mt-10">Follow</p>

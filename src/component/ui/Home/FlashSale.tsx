@@ -4,9 +4,11 @@ import Button from "@/component/ui/Button/Button";
 import Card from "@/component/FlashCard";
 
 const FlashSale = async () => {
-  const res = await fetch(`${process.env.BACKEND_URL}flash-sale`);
-
-  const sales = await res.json();
+  const res = await fetch("https://deshi-shop-server-final-2.onrender.com/flash-sale");
+if (!res.ok) {
+  throw new Error("Failed to fetch flash sale data");
+}
+const sales = await res.json();
   return (
     <div className=" mt-20 px-2">
       <div className=" flex justify-between items-center">

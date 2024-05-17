@@ -5,7 +5,7 @@ export const baseApi = createApi({
   reducerPath: "baseApi",
   baseQuery: fetchBaseQuery({
     // baseUrl: "https://ecomarce-back-9.onrender.com/",
-    baseUrl: "http://localhost:5000/",
+    baseUrl: "https://deshi-shop-server-final-2.onrender.com/",
   }),
   //end
   endpoints: (builder) => ({}),

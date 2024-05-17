@@ -22,6 +22,17 @@ const Gallery = () => {
       opacity: 1,
       x: 0,
       rotate: 0,
+      transition: { duration: 2},
+    }
+  ,
+    
+  };
+  const GalleryVariants1 = {
+    hidden: { opacity: 0, x: -200, transition: { duration: 1 } },
+    visible: {
+      opacity: 1,
+      x: 0,
+      rotate: 0,
       transition: { duration: 2 },
     },
   };
@@ -46,9 +57,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://metro-b2c.s3.ap-southeast-1.amazonaws.com/Misc/1686560126390"
+            src="https://i.ibb.co/px7Yn0Q/1695135322-dove-dermacare-scalp-anti-dandruff-shampoo-6509b64f2bd3d.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48  rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -59,9 +70,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://i.ibb.co/txDgNGr/horlix.webp"
+            src="https://i.ibb.co/myTQwJN/lux-soap.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -72,9 +83,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://assets.babycenter.com/ims/2021/01/cow-and-gate-4-6-months-breakfast_4x3.jpg"
+            src="https://i.ibb.co/jfVyT5g/salt.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -85,9 +96,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://c4.wallpaperflare.com/wallpaper/191/174/369/summer-the-sun-glade-child-wallpaper-preview.jpg"
+            src="https://i.ibb.co/QMT5h5p/sunsilk-shampoo.webp"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48  rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -98,9 +109,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://c4.wallpaperflare.com/wallpaper/473/242/553/child-face-food-spoon-wallpaper-preview.jpg"
+            src="https://i.ibb.co/BVKnRmH/download-10.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48  rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -111,9 +122,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://c4.wallpaperflare.com/wallpaper/937/735/645/soup-food-mushroom-spoon-hd-wallpaper-preview.jpg"
+            src="https://i.ibb.co/VV0jRmN/2022-02-04-61fd2bcfa1c38.png"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -124,9 +135,9 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://c4.wallpaperflare.com/wallpaper/277/600/860/soup-spoon-dish-wallpaper-preview.jpg"
+            src="https://i.ibb.co/myTQwJN/lux-soap.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             
@@ -137,9 +148,120 @@ const Gallery = () => {
           <Image
             width={200}
             height={200}
-            src="https://c1.wallpaperflare.com/preview/233/514/459/healthy-pumpkin-soup-top-view.jpg"
+            src="https://i.ibb.co/px7Yn0Q/1695135322-dove-dermacare-scalp-anti-dandruff-shampoo-6509b64f2bd3d.jpg"
             alt="Image 1"
-            className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+      </motion.div>
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={GalleryVariants1}
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4"
+      >
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/px7Yn0Q/1695135322-dove-dermacare-scalp-anti-dandruff-shampoo-6509b64f2bd3d.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/myTQwJN/lux-soap.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/jfVyT5g/salt.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/QMT5h5p/sunsilk-shampoo.webp"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/BVKnRmH/download-10.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/VV0jRmN/2022-02-04-61fd2bcfa1c38.png"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/myTQwJN/lux-soap.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            
+          </div>
+        </div>
+
+        <div className="group cursor-pointer relative">
+          <Image
+            width={200}
+            height={200}
+            src="https://i.ibb.co/px7Yn0Q/1695135322-dove-dermacare-scalp-anti-dandruff-shampoo-6509b64f2bd3d.jpg"
+            alt="Image 1"
+            className="w-full h-48 rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
             

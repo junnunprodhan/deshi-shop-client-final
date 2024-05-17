@@ -5,7 +5,7 @@ import Button from "@/component/ui/Button/Button";
 import ProductsCard from "@/component/ProductsCard";
 
 const TrendingProduct = async () => {
-  const res = await fetch(`${process.env.BACKEND_URL}products`, {
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/products`, {
     next: { revalidate: 30 },
   });
   const data = await res.json();

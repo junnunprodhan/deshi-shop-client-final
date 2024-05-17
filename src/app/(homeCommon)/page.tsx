@@ -12,11 +12,11 @@ const page = () => {
     <div className=" space-y-32">
      <HeroSection/>
       <FlashSale />
-      <AboutUs />
       <Brand />
       <Gallery />
       <TrendingProduct />
       <Contact />
+      <AboutUs />
     </div>
   );
 };

@@ -40,7 +40,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className=" mt-20">
+    <div className=" my-20">
       <div className=" grid grid-cols-1 md:grid-cols-2">
         <motion.div
           ref={ref}
@@ -53,7 +53,7 @@ const AboutUs = () => {
             width={500}
             height={500}
             src={
-              "https://media.istockphoto.com/id/186560911/photo/feeding-excited-baby.jpg?s=1024x1024&w=is&k=20&c=iJrszhNKeudOm7EVIryGCfJzXO7Fascn_Cx5iYmUkXg="
+              "https://i.ibb.co/MstPzkn/Photo.png"
             }
             alt=""
             className=" border-4 p-1 md:h-[350px] md:w-[400px] object-cover w-[300px]"
@@ -78,12 +78,12 @@ const AboutUs = () => {
           <p className=" text-xl font-semibold">About Us</p>
           <p className=" mt-7">
             {" "}
-            At BabyCare, we are dedicated to nourishing your little ones with
+            Welcome Deshi Shop, we are dedicated to nourishing your little ones with
             the finest organic ingredients. Our passion for safety and taste
             ensures every spoonful supports healthy growth. Explore our range of
             wholesome purees, snacks, and meals, crafted with love and
-            expertise. Trust BabyCare for a journey of nourishment and joy from
-            the very start
+            expertise. Trust Deshi shop for a journey of nourishment and joy from
+            the very start.
           </p>
           <div className=" flex md:gap-7 gap-2 mt-10 justify-center md:justify-start">
             <Link href={"/about"}>

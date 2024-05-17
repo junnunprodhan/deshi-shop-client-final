@@ -4,7 +4,7 @@ import DetailsCard from "@/component/DetailsCard";
 import React from "react";
 
 export const generateStaticParams = async () => {
-  const res = await fetch(`https://ecomarce-back-9.onrender.com/products`);
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/products`);
   const data = await res.json();
   return data.slice(0, 10).map((product: TProduct) => ({
     productId: product._id.toString(),
@@ -13,7 +13,7 @@ export const generateStaticParams = async () => {
 
 const page = async ({ params }: { params: { productId: string } }) => {
   const res = await fetch(
-    `${process.env.BACKEND_URL}product/${params.productId}`
+    `https://deshi-shop-server-final-2.onrender.com/product/${params.productId}`
   );
   const data = await res.json();
 

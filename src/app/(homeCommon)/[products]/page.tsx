@@ -10,7 +10,7 @@ const page = async (props: {
   const search = props.searchParams;
 
   const queryUrl = new URLSearchParams(search).toString();
-  const res = await fetch(`${process.env.BACKEND_URL}products?${queryUrl}`);
+  const res = await fetch(`https://deshi-shop-server-final-2.onrender.com/products?${queryUrl}`);
   const data = await res.json();
   return (
     <div>
