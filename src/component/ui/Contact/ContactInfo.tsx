@@ -57,7 +57,7 @@ const ContactInfo = () => {
           </div>
           <div>
             <p className=" font-bold  text-xl mb-3 ">Contact on mail</p>
-            <p className=" hover:text-[#a2e233]">baby342@gmail.com</p>
+            <p className=" hover:text-[#a2e233]">deshishop@gmail.com</p>
           </div>
         </div>
 

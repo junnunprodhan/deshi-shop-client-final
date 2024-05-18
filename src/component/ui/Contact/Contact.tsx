@@ -10,7 +10,7 @@ const Contact = () => {
         <p className=" font-semibold text-xl mb-4">Contact Information</p>
         <p className=" md:w-[70ch] mx-auto">
           Need assistance or have questions? Contact us for expert guidance and
-          support on all things baby care. We are here to help make your
+          support on all things Deshi shop. We are here to help make your
           parenting journey smoother and more enjoyable
         </p>
       </div>
