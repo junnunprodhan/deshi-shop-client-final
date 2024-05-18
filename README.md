@@ -5,7 +5,7 @@
 <h1 align="center">Deshi Shop</h1>
 
 <p align=center>
-  <a href="https://shine-store.vercel.app">Website Link</a> ·
+  <a href="https://deshi-shop-client-final.onrender.com/">Website Link</a> ·
   <a href="https://github.com/junnunprodhan/deshi-shop-client-final">Frontend repository link</a> ·
   <a href="https://github.com/junnunprodhan/deshi-shop-server-final">Backend repository link</a>
 </p>
