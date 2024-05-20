@@ -4,12 +4,16 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 
 const brands = [
+  "Shampoo",
+  "Salt",
+  "Soap",
+  "Oil",
   "Milk",
   "Supplements",
   "Fruits",
   "Vegetables",
   "Grains",
-  "Proteins",
+  "Proteins"
 ];
 const ratings = [1, 2, 3, 4, 5];
 
