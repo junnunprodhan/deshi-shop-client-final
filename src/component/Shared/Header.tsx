@@ -33,7 +33,7 @@ const Header = () => {
   const isAdmin = "admin";
   return (
     <div className=" z-20 fixed w-full ">
-      <div className=" flex px-3 text-white font-semibold max-w-[1280px] text-[16px]  bg-[#000000] w-full h-14 mx-auto">
+      <div className=" flex px-3 text-white font-semibold text-[16px]  bg-[#000000] w-full h-14 mx-auto">
         <div className=" flex items-center">
           <Link href={"/"}>
             <p className=" flex items-center gap-1 text-[32px]">

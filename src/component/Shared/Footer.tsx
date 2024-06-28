@@ -8,7 +8,6 @@ import Container from "../Container/Container";
 
 const Footer = () => {
   return (
-    <Container>
       <div className="bg-black space-y-6 py-10 mt-20">
         <div className=" grid grid-cols-1 md:grid-cols-5 px-7 space-y-10 md:justify-items-center text-white">
           <div>
@@ -156,7 +155,6 @@ const Footer = () => {
           &copy; 2024 developed by deshi shop All Right Reserved.
         </p>
       </div>
-    </Container>
   );
 };
 
