@@ -22,7 +22,7 @@ const DashboardDrawer = ({ children }: { children: ReactNode }) => {
           <Avatar />
         </Link>
       </div>
-      <div className=" grid grid-cols-12">
+      <div className=" grid grid-cols-12 bg-gray-900">
         <div className=" sticky top-0 col-span-2">
           <SideBar />
         </div>

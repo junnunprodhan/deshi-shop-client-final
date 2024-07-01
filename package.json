@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@formspree/react": "^2.5.1",
     "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/material": "^5.15.21",
     "@reduxjs/toolkit": "^2.2.3",
     "@types/react-select": "^5.0.1",
     "antd": "^5.17.2",

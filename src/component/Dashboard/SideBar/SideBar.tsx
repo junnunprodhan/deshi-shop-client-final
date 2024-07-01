@@ -25,6 +25,7 @@ const SideBar = () => {
   
   const isAdmin = "admin";
   return (
+
     <div className=" sticky top-0 border px-4 bg-black h-screen text-white  space-y-2">
       {SideBarItem(isAdmin).map((Item) => (
         <Link
