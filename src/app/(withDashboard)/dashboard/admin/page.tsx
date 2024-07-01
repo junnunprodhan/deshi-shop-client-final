@@ -7,7 +7,7 @@ const page = () => {
   Welcome to your
   </h2>
   <h5 className="text-green-400">
-  Dashboard!!
+  Dashboard!!  
   </h5>
 </div>
 
