@@ -23,7 +23,7 @@ const page = () => {
   </div>
   <div>this   is 2</div>
   <div>this   is  3</div>
-  <div>this    is 4</div>
+  <div>this  is 4</div>
 </div>
 
   </div>;
