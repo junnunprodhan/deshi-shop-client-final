@@ -26,7 +26,7 @@ const page = () => {
   <div>this  is 4</div>
 </div>
 
-  </div>;
-};
+  </div>
 
+}
 export default page;
