@@ -21,7 +21,7 @@ const page = () => {
       </div>
     </div>
   </div>
-  <div>this is total earnings</div>
+  <div>total earnings</div>
   <div>total incomes</div>
   <div>total products</div>
 </div>
