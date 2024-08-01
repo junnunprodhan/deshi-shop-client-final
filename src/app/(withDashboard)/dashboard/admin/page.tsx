@@ -22,7 +22,7 @@ const page = () => {
     </div>
   </div>
   <div>Total earning : $1000</div>
-  <div>total incomes :$900</div>
+  <div>Total incomes :$900</div>
   <div>total products :1000</div>
 </div>
 
